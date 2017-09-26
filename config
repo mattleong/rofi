@@ -1,15 +1,18 @@
-! ------------------------------------------------------------------------------
-! ROFI Color theme
-! ------------------------------------------------------------------------------
-! Use extended color scheme
-rofi.color-enabled:                  true
-! Color scheme for normal row
-rofi.color-normal:                   argb:a02f1e2e, #b4b4b4, argb:a02f1e2e, argb:54815ba4, #F1ACEF
-! Color scheme for urgent row
-rofi.color-urgent:                   argb:272f1e2e, #ef6155, argb:2f2f1e2e, argb:54815ba4, #ef6155
-! Color scheme for active row
-rofi.color-active:                   argb:272f1e2e, #815ba4, argb:2f2f1e2e, argb:54815ba4, #815ba4
-! Color scheme window
-rofi.color-window:                   #2f1e2e, argb:36ef6155, argb:2fef6155
-! Separator style (none, dash, solid)
-rofi.separator-style:                dash
+! Nord colors
+color-enabled: true
+rofi.color-window: #3a4c54, #2a373e, #c3c6c8
+rofi.color-normal: #455a64, #fafbfc, #455a64, #00bcd4, #fafbfc
+rofi.color-active: #455a64, #00bcd4, #455a64, #009688, #fdf6e3
+rofi.color-urgent: #455a64, #ff5252, #455a64, #ff5252, #fdf6e3
+r-enabled: true
+
+! Property Name     BG       Border   Separator
+rofi.color-window:  #3B4252, #3B4252, #2E3440
+
+! Property Name     BG       FG       BG-alt   Head-BG  Head-FG
+rofi.color-normal:  #3B4252, #E5E9F0, #3B4252, #3B4252, #8FBCBB
+rofi.color-active:  #3B4252, #EBCB8B, #3B4252, #3B4252, #EBCB8B
+rofi.color-urgent:  #3B4252, #88C0D0, #3B4252, #3B4252, #88C0D0
+
+! Set the desired separator style
+rofi.separator-style: solid
